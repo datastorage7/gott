@@ -1394,7 +1394,7 @@ public class Gotas {
             return;
         }
 
-        CustomProgressDialogueInter ac_dialog111 = new CustomProgressDialogueInter(cont_ads, "Ad", "Please wait Ads is loading...", BGColor, Text_Color_main);
+        CustomProgressDialogueInter ac_dialog111 = new CustomProgressDialogueInter(cont_ads, "Ad Loading . . .", "Please wait Ads is loading...", BGColor, Text_Color_main);
 
         ac_dialog111.show();
         UnityAds.load(ac_Inter, new IUnityAdsLoadListener() {
@@ -1494,7 +1494,7 @@ public class Gotas {
             return;
         }
 
-        CustomProgressDialogueInter builder = new CustomProgressDialogueInter(cont_ads, "Loading Ads . . .", "Wait While Loading Ads, Sorry for Inconvenience and Thank You for Support and Waiting.", BGColor, TitleTextColor);
+        CustomProgressDialogueInter builder = new CustomProgressDialogueInter(cont_ads, "Ad Loading . . .", "Wait While Loading Ads", BGColor, TitleTextColor);
         builder.show();
 
         Interstial_FB_LoadShow(builder, cont_ads);
